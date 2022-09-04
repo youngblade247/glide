@@ -25,11 +25,6 @@
 #navlist a:hover{
     color: black;
 }
-#center{
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5px;
-}
 #button1{
     text-transform: capitalize;
     width: 45%;
@@ -288,6 +283,7 @@ li a{
     margin-top: 20px;
 }
 #navlist1 a{
+    
     text-decoration: none;
     margin-left: 40px;
     text-transform: capitalize;
@@ -298,6 +294,13 @@ li a{
 }
 #navlist1 a:hover{
     color: black;
+}
+#center{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
 }
 
  
