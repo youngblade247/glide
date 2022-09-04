@@ -25,6 +25,11 @@
 #navlist a:hover{
     color: black;
 }
+#center{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
 #button1{
     text-transform: capitalize;
     width: 45%;
