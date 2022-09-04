@@ -1,0 +1,298 @@
+#head{
+        /* justify-content: center;
+        align-items: center; */
+    display: flex; 
+    margin-bottom: 10px;
+} 
+
+/* this is the code for the navigation bar */
+#nav{
+    float: left;
+    list-style-type: none;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 55px;
+}
+#navlist a{
+    text-decoration: none;
+    margin-left: 40px;
+    text-transform: capitalize;
+    font-size:20px;
+    color: rgba(255, 255, 255, 0.42);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+#navlist a:hover{
+    color: black;
+}
+#button1{
+    text-transform: capitalize;
+    width: 45%;
+    height: 50%;
+    font-size: 20px;
+    border: 1px black none;
+    border-radius: 35px;
+    margin-left: 290px;
+    margin-top: 35px;
+    color: white;
+    background-color: rgba(8, 8, 122, 0.884);
+
+}
+#button1:hover{
+    color: black;
+}
+
+ /* this begins the second part */
+#head2{
+   
+display: flex; 
+margin-bottom: 10px;
+} 
+#button2{
+    color: white;
+    background-color: rgba(8, 8, 122, 0.884);
+    text-transform: capitalize;
+    font-size: 20px;
+    border: 1px black none;
+    border-radius: 35px;
+    margin-left: 60px;
+}
+#button2:hover{
+    color: black;
+}
+#images{
+    margin-left: 80px;
+    display: flex; 
+}
+#img1{
+    background-size: contain; 
+    height: 500px; 
+    width: 200px; 
+    margin-left: 50px;
+    border: 1px black none;
+    border-radius: 30px;
+}
+#img2{
+    margin-top: 10px;
+    background-size: contain ;
+    height: 480px;
+    width: 350px; 
+    margin-left: 30px;
+    border: 1px black none;
+    border-radius: 30px;
+}
+
+/* this begins the third part */
+#head3{
+background-color:rgba(232, 247, 245, 0.979);
+border: 1px black none;
+border-radius: 35px 0 0 0;
+padding: 20px;
+
+}
+#list2 a{
+
+    text-decoration: none;
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-size:20px;
+    color: rgba(41, 43, 41, 0.5);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+#images2{
+    justify-content: center;
+    display: flex; 
+}
+#list2 a:hover{
+    color: black;
+}
+#img3{
+    background-size: contain; 
+    height: 200px; 
+    width: 200px; 
+    margin-left: 20px;
+    border: 1px black none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* this begins the fourth part */
+#head4{
+    display: flex;
+    background-color:white;
+    margin-bottom: 10px;
+    justify-content: center;
+  
+}
+#img4{
+    background-size: contain; 
+    height: 500px; 
+    width: 800px; 
+    margin-left: 20px;
+    border: 1px black none;
+    border-radius: 10px;
+    box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#button3{
+    color: white;
+    background-color: rgba(8, 8, 122, 0.44);
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px black none;
+    border-radius: 35px;
+    margin-left: 20px;
+}
+#button3:hover{
+    color: black;
+}
+
+/* this begins the fifth part */
+#head5{
+margin-bottom: 0;
+} 
+#button4{
+    
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px black none;
+    border-radius: 35px;
+    margin-left: 5px;
+}
+#image3{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+#img5{
+    margin-top: 20px;
+    background-size: contain; 
+    height: 300px; 
+    width: 200px; 
+    border: 1px black none;
+    border-radius: 10px;
+    box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 0;
+}
+#img6{
+    margin-top: 20px;
+    background-size: contain; 
+    height: 300px; 
+    width: 700px; 
+    margin-bottom: 0;
+    margin-left: 10px;
+    border: 1px black none;
+    border-radius: 10px;
+    box-shadow: 0 9px 15px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* this is for the next part */
+#head6{
+    background-color:rgba(232, 247, 245, 0.979);
+    border: 1px black none;
+    border-radius: 35px 0 0 0;
+    padding: 20px;
+}
+/* images2 tag */
+#img7{
+    background-size: contain; 
+    height: 200px; 
+    width: 400px; 
+    margin-left: 90px;
+    border: 1px black none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#button5{
+    color: white;
+    background-color: rgba(8, 8, 122, 0.44);
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px black none;
+    border-radius: 35px;
+    margin-left: 0px;
+}
+
+/* this is for the next part */
+#head7{
+    display: flex;
+    background-color: rgba(20, 50, 90, 0.71);
+}
+#img8{
+    background-size: contain; 
+    height: 100%; 
+    width: 600px; 
+ 
+}
+
+/* this is for the next part */
+#head8{
+    padding: 45px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(185, 231, 19);
+}
+#button6{
+    margin-top: 80px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(8, 8, 122, 0.75);
+    text-transform: capitalize;
+    font-size: 20px;
+    border: 1px black none;
+    border-radius: 5px;
+    margin-left: 170px;
+}
+#button6:hover{
+    color: black;
+}
+
+/* this is for the next part */
+#head9{
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    background-color: rgb(0, 0, 107);
+    margin-bottom: 1px;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-transform: uppercase;
+    text-align:right;
+    margin: 3px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.42);
+}
+
+/* this is for the next part */
+#nav1{
+    float: left;
+    list-style-type: none;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+#navlist1 a{
+    text-decoration: none;
+    margin-left: 40px;
+    text-transform: capitalize;
+    font-size:15px;
+    color: rgba(255, 255, 255, 0.42);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+#navlist1 a:hover{
+    color: black;
+}
+
+ 
